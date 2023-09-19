@@ -71,10 +71,9 @@ while True:
         print("Menu tidak valid.")
         continue
 
-    # Melakukan filtering
     hasil_filter = filter_biodata(biodata_list, kriteria, nilai_min, nilai_max)
 
-    # Menampilkan hasil filtering
+   
     print("Hasil filtering berdasarkan kriteria:")
     for biodata in hasil_filter:
         print(biodata)
@@ -89,6 +88,6 @@ while True:
         if opsi == "1":
             break  # Kembali ke menu utama
         elif opsi == "2":
-            exit()  # Keluar dari program
+            exit()  # keluar
         else:
             print("Opsi tidak valid. Silakan pilih lagi.")

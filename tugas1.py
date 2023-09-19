@@ -2,7 +2,7 @@ class fisika:
     def menu(self):
         menu = """
 >>>MENU fisika<<<
-Hi, saya adalah Doni, akan membantumu mengerjakan soal Fisika. Silakan pilih salah satu (dengan angka):
+Hi, saya adalah idon, akan membantumu mengerjakan soal Fisika. Silakan pilih salah satu (dengan angka):
 [1] menghitung kecepatan
 [2] menghitung energi kinetik
 [3] menghitung energi potensial
@@ -23,7 +23,7 @@ while True:
     print(fisika().menu())
     pilih = input("Saya pilih nomor :")
     if pilih == "1":
-        print("Oke Bos, Doni akan menghitung kecepatan")
+        print("Oke Bos, idon akan menghitung kecepatan")
         while True:
             benda = input("masukkan nama benda :")
             jarak = input("masukkan jarak (dalam meter) :")
@@ -36,7 +36,7 @@ while True:
             else: break
  
     elif pilih == "2":
-        print("Oke Bos, Doni akan menghitung energi kinetik")
+        print("Oke Bos, idon akan menghitung energi kinetik")
         while True:
             benda = input("masukkan nama benda :")
             massa = input("masukkan massa (dalam Kg) :")
@@ -49,7 +49,7 @@ while True:
             else: break
  
     elif pilih == "3":
-        print("Oke Bos, Doni akan menghitung energi potensial")
+        print("Oke Bos, idon akan menghitung energi potensial")
         while True:
             benda = input("masukkan nama benda :")
             massa = input("masukkan massa (dalam Kg) :")
